@@ -1,0 +1,11 @@
+image: lambci/lambda:build-python3.7
+
+stages:
+  - test
+
+unit_test:
+  stage: test
+  script:
+    - echo "Pipeline Test From Github"
+
+
